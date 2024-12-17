@@ -1,4 +1,5 @@
 // server.js or app.js
+//https://alok722.github.io/namaste-javascript-notes/dist/lectures.html
 
 const express = require('express');
 const cors = require('cors');
@@ -26,5 +27,4 @@ app.get('/api/search', async (req, res) => {
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
-  console.log('Server is definitely running')
 });
